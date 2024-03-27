@@ -29,9 +29,15 @@
 
     <link href="https://juxinglong.github.io/static/MIS3033.css" rel="stylesheet" />
 
-
+    <link rel="stylesheet" href="site.css"/>
 </head>
 <body style="margin:10px;">
+    <div id="t1"></div>
+    <br />
+    <button id ="b1" class="btn btn-secondary">
+        Load States
+    </button>
+    <script src="t1.js"></script>
     <div id="tbldiv"></div>
     <br />
     <button id="btn1" class="btn btn-success">
@@ -42,7 +48,7 @@
         </span>
     </button>
     <script>
-        "use script";
+        "use strict";
         let gridtbl = null;//global var
 
         let btn1 = document.querySelector("#btn1");
